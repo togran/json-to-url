@@ -47,9 +47,11 @@ Input:
            "key2": "value2"
        }
    }
-]```
+]
+```
 
 Output:
 
 ```http://www.anydomain.com/path/to/file#header2
-https://www.somedomain.com/some/path?key1=value1&key2=value2```
+https://www.somedomain.com/some/path?key1=value1&key2=value2
+```
