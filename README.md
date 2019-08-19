@@ -26,53 +26,30 @@ All errors and exceptions have to be sent to STDERR.
 Example
 
 Input:
-
-[
-
+```[
    {
-
        "scheme": "http",
-
        "domain_name": "www.anydomain.com",
-
        "path": "path/to/file",
-
        "fragment": "header2"
-
    },
-
    {
-
        "scheme": "http",
-
        "domain_name": "www.domain2.com",
-
        "disabled": true
-
    },
-
    {
-
        "scheme": "https",
-
        "domain_name": "www.somedomain.com",
-
        "path": "some/path",
-
        "query": {
-
            "key1": "value1",
-
            "key2": "value2"
-
        }
-
    }
-
-]
+]```
 
 Output:
 
-http://www.anydomain.com/path/to/file#header2
-
-https://www.somedomain.com/some/path?key1=value1&key2=value2
+```http://www.anydomain.com/path/to/file#header2
+https://www.somedomain.com/some/path?key1=value1&key2=value2```
