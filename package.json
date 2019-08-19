@@ -1,0 +1,15 @@
+{
+    "name": "json-to-url",
+    "version": "1.0.0",
+    "description": "This module converts json file to list of URLs (Test task for StarOfService)",
+    "license": "MIT",
+    "repository": "github:togran/json-to-url",
+    "main": "json-to-url.json",
+    "scripts":{
+	"convert": "node json-to-url.js"
+    },
+    "engines": {
+	"node": "^10.16.0",
+	"yarn": "^1.17.3"
+    }
+}
